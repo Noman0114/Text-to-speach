@@ -1,0 +1,44 @@
+
+# Project Directory Structure
+
+The project directory structure is organized as follows:
+- `app`: contains the main application code
+  - `api`: contains the API routes
+    - `generate`: contains the route for generating sounds
+      - `route.tsx`: contains the code for the generate sound route
+  - `favicon.ico`: contains the application's favicon
+  - `globals.css`: contains global CSS styles
+  - `layout.tsx`: contains the layout component for the application
+  - `models`: contains the data models for the application
+    - `sound.tsx`: contains the data model for a sound
+  - `page.tsx`: contains the main page component for the application
+  - `views`: contains the different views for the application
+    - `GenerateSoundView.tsx`: contains the view for generating a sound
+- `components`: contains the reusable components for the application
+  - `GenerateSoundForm.tsx`: contains the form for generating a sound
+  - `Loader.tsx`: contains the loader component for the application
+  - `ui`: contains the UI components for the application
+    - `button.tsx`: contains the button component
+    - `form.tsx`: contains the form component
+    - `input.tsx`: contains the input component
+    - `label.tsx`: contains the label component
+    - `select.tsx`: contains the select component
+    - `textarea.tsx`: contains the textarea component
+    - `toast.tsx`: contains the toast component
+    - `toaster.tsx`: contains the toaster component
+    - `use-toast.ts`: contains the hook for using toasts
+- `components.json`: contains the configuration for the components
+- `lib`: contains the utility and constant files for the application
+  - `constants.tsx`: contains the constants used in the application
+  - `utils.ts`: contains utility functions for the application
+- `next.config.js`: contains the configuration for Next.js
+- `package-lock.json`: contains the lock file for the application's dependencies
+- `package.json`: contains the package information and dependencies for the application
+- `postcss.config.js`: contains the configuration for PostCSS
+- `public`: contains the public assets for the application
+  - `next.svg`: contains the Next.js logo
+  - `text-to-speech-diagram.png`: contains an image of a text-to-speech diagram
+  - `vercel.svg`: contains the Vercel logo
+- `README.md`: contains the project's README file
+- `tailwind.config.js`: contains the configuration for Tailwind CSS
+- `tsconfig.json`: contains the TypeScript configuration for the application
